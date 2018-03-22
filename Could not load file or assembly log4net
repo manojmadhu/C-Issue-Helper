@@ -1,5 +1,8 @@
 Could not load file or assembly log4net Version=1.2.10.0
 
-<solution>
+<solution 1>
 after i install CR Run time my problem was solved..i think the matter was between the 32bit and 64bit version.
   here is the link http://downloads.businessobjects.com/akdlm/cr4vs2010/CRforVS_13_0_5.exe[^]
+
+<solution 2>
+Check whether the log4net.dll is available in the BIN folder & also check the version of it referenced.
