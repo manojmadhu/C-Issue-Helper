@@ -1,0 +1,9 @@
+System.IO.FileNotFoundException was unhandled Message: An unhandled exception of type 'System.IO.FileNotFoundException'
+occurred in mscorlib.dll Additional information: Could not load file or assembly 
+'file:///C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win64_x64\dotnet1\crdb_adoplus.dll' or one of its dependencies. 
+
+Inside the app.config file
+
+<startup useLegacyV2RuntimeActivationPolicy="true">
+   <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0"/>
+</startup>
